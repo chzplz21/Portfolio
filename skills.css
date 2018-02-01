@@ -1,0 +1,53 @@
+
+
+#SkillsHeading {
+	font-family: 'Exo', sans-serif;
+	font-size: 70px;
+	color: orange;
+}
+
+#backHome {
+		font-family: 'Exo', sans-serif;
+	font-size: 40px;
+	color: #2E8B57;
+	margin-top: -50px;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover{ 
+    border:2px solid blue;
+
+}
+
+
+#paragraph {
+	margin: 0 auto;
+	width : 80%;
+	font-family: 'Exo', sans-serif;
+	font-size: 30px;
+	
+}
+
+
+#parInside {
+	float: left;
+	display: block;
+	width: 50%;
+	margin-left: 100px;
+} 
+
+
+
+img {
+	margin-top: 100px;
+	height: 400px;
+	width: 700px;
+
+	
+	
+}
+
+

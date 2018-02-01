@@ -1,0 +1,26 @@
+#the_table {
+	clear: both;
+	font-size: 40px;
+	font-family: 'Exo', sans-serif;
+	
+	width: 300px;
+}
+
+#table-holder {
+	
+	font-size: 40px;
+	font-family: 'Exo', sans-serif;
+}
+
+td, th {
+	font-size: 40px;
+}
+
+
+#PortfolioHeading {
+	font-family: 'Exo', sans-serif;
+	font-size: 70px;
+	color: orange;
+}
+
+

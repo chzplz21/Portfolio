@@ -1,0 +1,514 @@
+
+
+/*Left box contaning my name, etc. */
+	#left-box {
+	  width: 700px;
+	  height: auto;
+	  margin-top: 5%;
+	  margin: 0 auto;
+	  font-size: 70px;
+	}
+
+	
+	#lowerBar {
+		width: 80%;
+		margin: 0 auto;
+		height: 100px;
+		margin-top: 5%;
+	}
+	
+	
+	.bottomLinks {
+		display: inline-block;
+	    margin-left: 25%;
+		font-size: 35px;
+		font-family: 'Exo', sans-serif;
+	}
+	
+	#last {
+		margin-right: 0;
+		
+	}
+	
+
+/* class for about animation */	
+
+.slideSecond {
+	animation: slRight2 4s;
+	 
+	animation-fill-mode: forwards;
+    visibility: hidden;
+	
+}
+
+.slideSecond a {
+	color: orange;
+}
+
+/* animation for about */	
+@keyframes slRight2 {
+	
+		from {
+		margin-left:-150%;
+	}
+	
+	to {
+		margin-left: 25%;
+
+		visibility: visible;
+		
+	}
+}
+
+
+.slideThird {
+	animation: slRight3 4s;
+	-webkit-animation-delay: .5s;
+	animation-fill-mode: forwards;
+    visibility: hidden;
+	
+}
+
+.slideThird a {
+	color: black;
+}
+
+/* animation for portfolio */	
+@keyframes slRight3 {
+	from {
+		margin-left:-150%;
+	}
+	
+	to {
+		margin-left: 25%;
+
+		visibility: visible;
+		
+	}
+}
+
+	
+	
+
+	
+	
+	
+	
+	/*animation for skills */
+	.slideFirst {
+		animation: slRight1 5s;
+	    -webkit-animation-delay: 1s;
+  animation-fill-mode: forwards;
+        visibility: hidden;
+	
+	}
+	
+/* animation for skills */	
+@keyframes slRight1 {
+	
+		from {
+		margin-left:-150%;
+	}
+	
+	to {
+		margin-right: 0;
+
+		visibility: visible;
+		
+	}
+}
+
+	
+	
+	
+/*Right box containing links to my stuff */
+/*
+#right-side {
+  margin-top: 5%;
+  float: right;
+  overflow: hidden;
+  margin-right: 10%;
+  height: 520px;
+  width: 400px;
+  margin-right: 10px;
+  background-color: #2E8B57;
+  animation: fadeIt 5s;
+  -webkit-animation-delay: 6s; 
+   animation-fill-mode: forwards;
+  visibility: hidden;
+}
+*/
+
+
+/*Box for my name */
+#namebox {
+
+  width: 80%;
+  height: 100px;	
+  margin-top: 10%;
+ -webkit-animation-delay: 10s;
+  animation: fadeIt 5s;
+  visibility: hidden;
+  animation-fill-mode: forwards;
+  background-color: white;
+	
+}
+
+
+/* text for my name */
+#name {
+  
+
+	font-family: 'Exo', sans-serif;
+	overflow: hidden;
+	white-space: nowrap;
+	letter-spacing: .15em;
+  
+	animation: 
+    typing 2.5s steps(60),
+    blink-caret .75s step-end infinite;
+	letter-spacing: 2px;
+	
+}
+
+/*Web Developer*/
+#webBox {
+ 
+  clear: both;
+  width: 75%;
+  height: 100px;
+  margin-top: 20px;
+  margin-left: 5%;
+ -webkit-animation-delay: 5s;
+  animation: fadeIt2 10s;
+  visibility: hidden;
+  animation-fill-mode: forwards;
+  background-color: white;
+  color: white;
+}
+
+
+
+
+/*Text for web developer */
+#webD {
+	
+	font-family: 'Exo', sans-serif;
+	overflow: hidden;
+	white-space: nowrap;
+	animation: fadein 3s;
+	-webkit-animation-delay: 1s; 
+	visibility: hidden;
+	animation-fill-mode: forwards;
+		
+}
+
+
+/*ContactBox*/
+#contactbox {
+	margin-left: 15%;
+	width: 65%;
+	height: 160px;
+	margin-top: 20px;
+	background-color: orange;
+	color: #2E8B57;
+	font-size: 40px;
+	font-family: 'Exo', sans-serif;
+	 animation: fadeIt3 5s;
+  visibility: hidden;
+  animation-fill-mode: forwards;
+  background-color: white;
+		
+}
+
+
+/*text within contact box */
+#contacttext {
+		animation: fadein 3s;
+		-webkit-animation-delay: 2s; 
+		visibility: hidden;
+		animation-fill-mode: forwards;
+		
+}
+
+
+
+
+
+
+/* Animation for name box */
+@keyframes fadeIt {
+  0%   { background-color: white; 
+         visibility: visible;
+        }
+
+  100% { background-color: #2E8B57;
+         visibility: visible;
+  }
+}
+
+/* Animation for web developer text */
+@keyframes fadeIt2 {
+  0%   { background-color: white; 
+         visibility: visible;
+        }
+
+  100% { background-color: black;
+         visibility: visible;
+  }
+}
+
+/*Animation for contact box */
+@keyframes fadeIt3 {
+  0%   { background-color: white; 
+         visibility: visible;
+        }
+
+  100% { background-color: orange;
+         visibility: visible;
+  }
+}
+
+
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+
+@keyframes fadein {
+     0% {
+    opacity: 0;
+  }
+  100% {
+    
+    opacity: 1;
+	visibility: visible;
+  }
+}
+
+
+
+/*Formatting for all text that slides in */
+.slidetext {
+  	font-size: 40px;
+	font-family: 'Exo', sans-serif;
+	animation-name: slTop;
+	visibility: hidden;
+	animation-fill-mode: forwards;
+	
+}
+
+
+
+
+
+
+
+#portfolio {
+	
+	-webkit-animation-delay: 2s; 
+	animation-duration: 3s;
+	color: black;
+}
+
+
+#about {
+	
+	-webkit-animation-delay: 3s; 
+	animation-duration: 3s;
+	color: orange;
+		
+}
+
+
+#skills {
+	
+	-webkit-animation-delay: 4s; 
+	animation-duration: 3s;
+	color: black;
+	margin-bottom: 0;
+    
+	
+}
+
+
+#skillsFadeIn {
+	margin-left: 30px;
+	animation: fadein 5s;
+	-webkit-animation-delay: 6s; 
+	visibility: hidden;
+	animation-fill-mode: forwards;
+	font-family: 'Exo', sans-serif;
+	font-size: 20px;
+	color: white;
+		
+}
+
+
+
+@keyframes slTop {
+	
+		from {
+		margin-top: -100%;
+	}
+	
+	to {
+		margin-top: 20%;
+		visibility: visible;
+		
+	}
+}
+
+
+#skills-list {
+   animation-name: slRight;
+	-webkit-animation-delay: 6s; 
+	visibility: hidden;
+	animation-fill-mode: forwards;
+	animation-duration: 3s;
+    margin-top: 0;
+    color: orange;
+	
+}
+
+
+a {
+	text-decoration: none;
+}
+
+
+#table-holder {
+	clear: both;
+	font-size: 20px;
+}
+
+
+
+@media only screen and (max-width: 1110px) {
+	
+	
+	
+	/*
+	.bottomLinks {
+		display: inline-block;
+		margin-right: 25%;
+		font-size: 30px;
+		font-family: 'Exo', sans-serif;
+	}
+	*/
+	
+}
+
+
+@media only screen and (max-width: 800px) {
+	
+	.bottomLinks {
+		display: inline-block;
+		/*margin-right: 20%;*/
+		font-size: 27px;
+		font-family: 'Exo', sans-serif;
+	}
+	
+	
+}
+
+
+@media only screen and (max-width: 550px) {
+	
+		/*Left box contaning my name, etc. */
+	#left-box {
+	  width: 500px;
+	  height: auto;
+	  margin-top: 5%;
+	  margin: 0 auto;
+	  float: none;
+	 
+	  font-size: 30px;
+	  padding: 0.1px;
+	  margin-bottom: 15%;
+	}
+	
+	#namebox {
+		height: auto;
+		font-size: 50px;
+	}
+
+	#webbox {
+		height: auto;
+		font-size: 50px;
+	}
+	
+	/*ContactBox*/
+	#contactbox {
+		font-size: 28px;
+		height: auto;
+	}
+		
+	#lowerBar {
+		width: 60%;
+		
+		margin: 0 auto;
+		height: auto;
+		
+		margin-top: 20px;
+	}
+	
+	.bottomLinks {
+		display: block;
+		margin-right: 0;
+		margin-top: 80px;
+		font-size: 30px;
+		font-family: 'Exo', sans-serif;
+	}
+	
+	
+
+	
+	
+	
+}
+
+
+@media only screen and (max-width: 400px) {
+	
+	/*Left box contaning my name, etc. */
+	#left-box {
+	  width: 350px;
+	  height: auto;
+	  margin-top: 5%;
+	  margin: 0 auto;
+	  float: none;
+	
+	  font-size: 30px;
+	  margin-bottom: 30%;
+	}
+	
+	#namebox {
+		height: auto;
+		font-size: 35px;
+	}
+
+	#webbox {
+		height: auto;
+		font-size: 35px;
+	}
+	
+		/*ContactBox*/
+	#contactbox {
+		font-size: 20px;
+		height: auto;
+	}
+	
+	
+}
+
+
+
+	
+	
+	
+	
+	
+}

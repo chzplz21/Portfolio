@@ -1,0 +1,61 @@
+<html>
+
+
+<head>
+
+<link rel="stylesheet" type="text/css" href="about.css">
+<link href="https://fonts.googleapis.com/css?family=Exo" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+
+
+
+<body>
+
+<h1 id = "AboutHeading">About</h1>
+<a href = "index.html"><h2 id = "backHome">Back Home</h2></a>
+
+<!-- Intro Paragraph -->
+<div id = "paragraph">
+	<img src = "Images/pierpic.jpg">
+	<div id = "parInside">
+	Hey! My name is David, I'm a web developer living in South Florida.<br><br> I have been doing web development
+	for a little under a year, but I have grown proficient on the front end with HTML, CSS, and programming with JavaScript. <br><br> I am also working on learning PHP, MySQL, and Wordpress. Every day I am devoted to bettering my skills so that 
+	I can take on any job thrown my way. <br><br>
+	Email: <b>drothhello@gmail.com</b><br>
+	Phone: <b>954-261-2916</b><br>
+	</p>
+	
+
+	
+	
+	
+</div>
+
+
+</body>
+
+
+
+
+</html>
+
+
+
+<script>
+ $(window).resize(function(){ 
+	if ($(window).width() > 750) {
+			var heightOfInside = $('#parInside').height();
+			$('#paragraph').css("height", heightOfInside);
+					
+		}
+
+	else {
+		$('#paragraph').css("height", '');
+	}
+});
+
+
+</script>

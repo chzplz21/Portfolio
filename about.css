@@ -1,0 +1,173 @@
+
+
+#AboutHeading {
+	font-family: 'Exo', sans-serif;
+	font-size: 70px;
+	color: orange;
+}
+
+#backHome {
+	font-family: 'Exo', sans-serif;
+	font-size: 40px;
+	color: #2E8B57;
+	margin-top: -50px;
+}
+
+a {
+	text-decoration: none;
+}
+
+#paragraph {
+	margin: 0 auto;
+	width : 80%;
+	font-family: 'Exo', sans-serif;
+	font-size: 2.5vw;
+	border: solid #2E8B57;
+	height: 900px;
+	background-color: #FF851B;
+}
+
+
+img {
+	float: left;
+	display: block;
+	border: solid black;
+}
+
+/*inside text */
+#parInside {
+	float: right;
+	display: block;
+	width: 50%;
+	height: auto;
+	
+	background-color: white;
+	border: solid black
+		
+} 
+
+
+
+
+
+@media only screen and (max-width: 1000px) {
+	
+img {
+	float: left;
+	height: 200px;
+	
+	display: block;
+}
+	
+
+}
+
+
+@media only screen and (max-width: 750px) {
+	
+	#AboutHeading {
+	font-family: 'Exo', sans-serif;
+	font-size: 60px;
+	color: orange;
+}
+
+	#backHome {
+		font-family: 'Exo', sans-serif;
+		font-size: 30px;
+		color: #2E8B57;
+		margin-top: -50px;
+	}
+	/*containing orange box */
+	#paragraph {
+		margin: 0 auto;
+		width : 80%;
+		font-family: 'Exo', sans-serif;
+		font-size: 2.5vw;
+		border: solid green;
+		height: auto;
+		background-color: #FF851B;
+}
+
+	img {
+		float: none;
+		margin: 0 auto;
+		height: 225px;
+		display: block;
+	}
+	
+
+
+	/*inside text */
+	#parInside {
+		float: none;
+		display: block;
+		width: 50%;
+		height: auto;
+		background-color: white;
+		border: solid black;
+		margin: 0 auto;
+		margin-top: 30px;
+			
+	}
+	
+
+	
+
+}
+
+
+@media only screen and (max-width: 600px) {
+	#AboutHeading {
+		font-family: 'Exo', sans-serif;
+		font-size: 50px;
+		color: orange;
+	}
+
+	#backHome {
+		font-family: 'Exo', sans-serif;
+		font-size: 20px;
+		color: #2E8B57;
+		margin-top: -50px;
+	}
+	
+	/*containing orange box */
+	#paragraph {
+		margin: 0 auto;
+		width : 90%;
+		font-family: 'Exo', sans-serif;
+		font-size: 2.5vw;
+		border: solid green;
+		height: auto;
+		background-color: #FF851B;
+}
+
+
+	img {
+		float: none;
+		margin: 0 auto;
+		height: 175px;
+		display: block;
+	}
+	
+	/*inside text */
+	#parInside {
+		float: none;
+		display: block;
+		width: 80%;
+		height: auto;
+		background-color: white;
+		border: solid black;
+		margin: 0 auto;
+		margin-top: 30px;
+		font-size: 15px;
+			
+	}
+	
+	
+	
+}
+	
+	
+	
+	
+	

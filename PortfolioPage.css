@@ -1,0 +1,284 @@
+
+/*self explanatory */
+#PortfolioHeading {
+	font-family: 'Exo', sans-serif;
+	font-size: 70px;
+	color: orange;
+}
+
+/*self explanatory */
+#backHome {
+	font-family: 'Exo', sans-serif;
+	font-size: 40px;
+	color: #2E8B57;
+	margin-top: -50px;
+}
+
+
+a {
+	text-decoration: none;
+}
+
+
+
+#centeringDiv {
+    display: inline-block;
+	width: 100%;
+	height: auto;
+	border: solid green;
+		
+}
+
+/*left side containing box as well as right side box*/
+.box {
+  width: 30%;
+  height: 300px;
+  display: inline-block;	
+  margin-left: 13%;
+  margin-top: 100px;
+  vertical-align: middle;
+  font-family: 'Exo', sans-serif;
+   
+  }
+ 
+/*border for left box */ 
+ .border {
+	border: 5px solid black; 
+	height: auto;
+ }
+  
+ /* applies shadow property to right side boxes */ 
+ .shadow {
+	box-shadow: 10px 10px 5px #888888;
+  
+  }
+
+/*Used for titles (website and technologies used) */  
+  .title {
+	  text-align: center;
+	  font-size: 20px;
+	  color: #2E8B57;
+	  margin-top: 0;
+  }
+
+  
+  .button {
+	background-color: #4CAF50;
+	display: inline-block;
+    border: none;
+    color: white;
+	padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+	font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+	margin-top: 0;
+  }
+
+
+
+
+.square-pic {
+	width: 100%;
+	height: 100%;
+}
+
+
+/*container for lower tech portion in box */
+.techContainer {
+	width: 100%;
+	height: auto;
+	
+	margin-top: -10px;
+	text-align: center;
+	
+}
+
+
+@media only screen and (max-width: 950px) {
+	
+	/*left side containing box as well as right side box*/
+.box {
+  width: 45%;
+  height: 300px;
+  display: inline-block;	
+  margin-left: 3%;
+  margin-top: 100px;
+  vertical-align: middle;
+  font-family: 'Exo', sans-serif;
+  font-size: 14px;
+   
+
+  }
+  
+/*border for left box */ 
+ .border {
+	border: 5px solid black; 
+	height: auto;
+ }
+ 
+ 
+
+.button {
+	background-color: #4CAF50;
+	display: inline-block;
+	border: none;
+	color: white;
+	padding: 12px 29px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 14px;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+  
+  
+
+	
+}
+
+
+
+@media only screen and (max-width: 700px) {
+
+	
+/*self explanatory */
+#PortfolioHeading {
+	font-family: 'Exo', sans-serif;
+	font-size: 60px;
+	color: orange;
+}
+
+/*self explanatory */
+#backHome {
+	font-family: 'Exo', sans-serif;
+	font-size: 30px;
+	color: #2E8B57;
+	margin-top: -50px;
+}
+	
+/*left side containing box as well as right side box*/
+
+.box {
+  width: 400px;
+  height: 300px;
+  display: block;	
+  margin: 0 auto;
+  margin-top: 80px;
+  vertical-align: middle;
+  font-family: 'Exo', sans-serif;
+  font-size: 13px;
+   
+  }
+	
+.shadow {
+	margin-top: 0; 
+	 
+ }
+ 
+/*border for left box */ 
+.border {
+	border: 5px solid black; 
+	height: auto;
+ }
+ 
+ 
+.button {
+	background-color: #4CAF50;
+	display: inline-block;
+	border: none;
+	color: white;
+	padding: 10px 27px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 12px;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+
+
+/*Used for titles (website and technologies used) */  
+  .title {
+	  text-align: center;
+	  font-size: 17px;
+	  color: #2E8B57;
+  }
+ 
+ 
+ 
+}
+ 
+
+@media only screen and (max-width: 480px) {
+
+
+/*self explanatory */
+#PortfolioHeading {
+	font-family: 'Exo', sans-serif;
+	font-size: 50px;
+	color: orange;
+}
+
+/*self explanatory */
+#backHome {
+	font-family: 'Exo', sans-serif;
+	font-size: 20px;
+	color: #2E8B57;
+	margin-top: -50px;
+}
+
+
+/*left side containing box as well as right side box*/
+.box {
+  width: 90%;
+  height: 200px;
+  display: block;	
+  margin: 0 auto;
+  margin-top: 80px;
+  vertical-align: middle;
+  font-family: 'Exo', sans-serif;
+  font-size: 12px;
+   
+  }
+  
+.shadow {
+	margin-top: 0; 
+	 
+ }
+  
+  
+/*border for left box */ 
+.border {
+	border: 5px solid black; 
+	height: auto;
+ }
+ 
+ 
+.button {
+	background-color: #4CAF50;
+	display: inline-block;
+	border: none;
+	color: white;
+	padding: 8px 25px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 12px;
+	margin: 4px 2px;
+	cursor: pointer;
+
+}
+
+
+/*Used for titles (website and technologies used) */  
+  .title {
+	  text-align: center;
+	  font-size: 15px;
+	  color: #2E8B57;
+  }
+	
+	
+	
+	
+	
+}
